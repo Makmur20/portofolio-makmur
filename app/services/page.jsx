@@ -24,7 +24,7 @@ const services = [
         href: ""
     },
     {
-        num: "05",
+        num: "04",
         title: "SEO",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tenetur.",
         href: ""
