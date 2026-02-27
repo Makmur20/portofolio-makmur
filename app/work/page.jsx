@@ -22,33 +22,54 @@ import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
 const projects = [
     {
         num: "01",
-        category: "frontend",
+        category: "Web e-Rapor Kurikulum Merdeka Menggunkan Spk Metode Ahp",
         title: "project 1",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam sed quaerat est, quisquam voluptatem aliquam provident nihil architecto, voluptates, adipisci quos necessitatibus neque accusamus ut veritatis perspiciatis odit. Illo, repellat!",
-        stack: [{name: "Html 5"}, {name: "Css 3"}, {name: "Javascript" }],
-        image: "/assets/work/thumb1.png",
+        description: "Web e-Rapor Kurikulum Merdeka adalah sistem penilaian digital yang dirancang untuk membantu sekolah dalam mengelola, mengolah, dan menyajikan hasil belajar peserta didik secara terstruktur dan akurat. Sistem ini mendukung prinsip Kurikulum Merdeka yang berfokus pada kompetensi, perkembangan, dan potensi setiap siswa.",
+        stack: [{name: "Html 5"}, {name: "Larvel"}, {name: "Javascript" }],
+        image: "/assets/work/ahp.png",
         live: "",
         github: "",
     },
 
     {
         num: "02",
-        category: "fullstack",
+        category: "Sistem Klasifikasi Status Stunting Balita Berbasis Web",
         title: "project 2",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam sed quaerat est, quisquam voluptatem aliquam provident nihil architecto, voluptates, adipisci quos necessitatibus neque accusamus ut veritatis perspiciatis odit. Illo, repellat!",
-        stack: [{name: "Next.js"}, {name: "Tailwind.css"}, {name: "Node.js" }],
-        image: "/assets/work/thumb2.png",
+        description: "Sistem Klasifikasi Status Stunting Balita Berbasis Web adalah aplikasi yang dirancang untuk membantu tenaga kesehatan dalam mengidentifikasi dan mengklasifikasikan status stunting pada balita secara cepat dan akurat. Sistem ini memanfaatkan data antropometri balita untuk menghasilkan klasifikasi status gizi secara objektif.",
+        stack: [{name: "Laravel"}, {name: "Boostrap.css"}, {name: "Javascript" }],
+        image: "/assets/work/stunting.png",
         live: "",
         github: "",
     },
 
     {
         num: "03",
-        category: "frontend",
-        title: "project 1",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam sed quaerat est, quisquam voluptatem aliquam provident nihil architecto, voluptates, adipisci quos necessitatibus neque accusamus ut veritatis perspiciatis odit. Illo, repellat!",
-        stack: [{name: "Next.js"}, {name: "Tailwind.css"}],
-        image: "/assets/work/thumb3.png",
+        category: "Sistem E-Klinik Berbasis Web",
+        title: "project 3",
+        description: "Sistem E-Klinik Berbasis Web adalah aplikasi yang dirancang untuk membantu pengelolaan layanan klinik secara digital, mulai dari pendaftaran pasien, pencatatan rekam medis, hingga pengelolaan laporan. Sistem ini bertujuan meningkatkan efisiensi pelayanan, akurasi data, dan kemudahan akses informasi bagi tenaga medis dan pihak manajemen.",
+        stack: [{name: "Laravel"}, {name: "Boostrap.css"}, {name: "Javascript" }],
+        image: "/assets/work/klinik.png",
+        live: "",
+        github: "",
+    },
+    {
+        num: "04",
+        category: "Sistem Kasir Android Mobile",
+        title: "project 4",
+        description: "Sistem Kasir Android Mobile adalah aplikasi kasir berbasis Android yang dirancang untuk membantu proses transaksi penjualan secara cepat dan efisien. Aplikasi ini mendukung pengelolaan produk, pencatatan penjualan, serta perhitungan total dan kembalian secara otomatis.",
+        stack: [{name: "Java"}, {name: "sql"}],
+        image: "/assets/work/kasir.png",
+        live: "",
+        github: "",
+    },
+
+        {
+        num: "05",
+        category: "Sistem Pemesanan Tiket Travel Online Berbasis Web",
+        title: "project 5",
+        description: "Sistem Pemesanan Tiket Travel Online Berbasis Web adalah aplikasi yang dirancang untuk memudahkan pengguna dalam melakukan pemesanan tiket perjalanan secara online. Sistem ini memungkinkan pengguna melihat jadwal, memilih rute, melakukan pemesanan, dan mendapatkan tiket dengan cepat tanpa harus datang langsung ke agen travel.",
+        stack: [{name: "Codeigniter"}, {name: "Boostrap.css"}, {name: "Javascript" }],
+        image: "/assets/work/travel.png",
         live: "",
         github: "",
     },
@@ -80,7 +101,7 @@ const Work = () => {
                         </div>
                         {/* project category */}
                         <h2 className="text=[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                            {project.category} project
+                            {project.category}
                         </h2>
                         {/* project description */}
                         <p className="text-white/60">{project.description}</p>

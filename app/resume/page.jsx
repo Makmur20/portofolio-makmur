@@ -13,9 +13,9 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 // about data
 const about = {
-  title: "About Me",
+  title: "Tentang Saya",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Saya memiliki pengalaman dalam mengembangkan berbagai aplikasi berbasis web dan mobile, mulai dari sistem informasi, aplikasi kasir, hingga platform pemesanan online. Dalam setiap proyek, saya terbiasa merancang struktur sistem, mengembangkan fitur fungsional, serta memastikan aplikasi berjalan stabil dan mudah digunakan. Saya berpengalaman menggunakan berbagai teknologi modern untuk membangun solusi digital yang efisien, dengan fokus pada performa, keamanan, dan pengalaman pengguna.",
   info: [
     {
       fieldName: "Name",
@@ -47,71 +47,61 @@ const about = {
     },
     {
       fieldName: "Language",
-      fieldValue: "Indonesian, English, Japan",
+      fieldValue: "Indonesian, English",
     },
   ],
 };
 
 // experience data
 const experience = {
-  title: "My Experience",
+  title: "Pengalaman Saya",
   icon: "/assets/resume/badge.svg",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Saya memiliki pengalaman dalam mengembangkan berbagai aplikasi berbasis web dan mobile, mulai dari sistem informasi, aplikasi kasir, hingga platform pemesanan online. Dalam setiap proyek, saya terbiasa merancang struktur sistem, mengembangkan fitur fungsional, serta memastikan aplikasi berjalan stabil dan mudah digunakan. Saya berpengalaman menggunakan berbagai teknologi modern untuk membangun solusi digital yang efisien, dengan fokus pada performa, keamanan, dan pengalaman pengguna.",
   items: [
     {
       company: "ezscode.",
       potition: "Full Stack Developer",
-      duration: "2023 - Present",
+      duration: "2023 - 2024",
     },
     {
-      company: "Web Desain Studio.",
-      potition: "Frount-End Developer",
-      duration: "2021-2022",
+      company: "Web Frelance",
+      potition: "Web Developer",
+      duration: "2024-2025",
     },
     {
-      company: "E-commerce Starup",
-      potition: "Frelance Web Developer",
-      duration: "2019-2020",
+      company: "3D Animation",
+      potition: "3D Generalist",
+      duration: "2026",
     },
   ],
 };
 
 // Eduction data
 const education = {
-  title: "My Education",
+  title: "Pendidikan Saya",
   icon: "/assets/resume/badge.svg",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   items: [
     {
-      institution: "Online Course Plarform",
-      degree: "Full Stack Web Developer Bootcamp",
-      duration: "2023",
+      institution: "SMK 6 Pekanbaru",
+      degree: "Rekayasa Perangkat Lunak",
+      duration: "2017-2019",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2023",
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      institution: "Universitas Islam Negeri Sultan Syarif Kasim Riau",
+      degree: "Teknik Informatika",
+      duration: "2019-2024",
     },
   ],
 };
 
 // Skill data
 const skills = {
-  title: "My skills",
+  title: "Skil Saya",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Saya memiliki keahlian dalam pengembangan aplikasi web dan mobile dengan fokus pada performa, fungsionalitas, dan pengalaman pengguna. Terbiasa mengerjakan proyek dari tahap perancangan sistem, pengembangan fitur, hingga pengujian dan implementasi. Saya juga memahami perancangan database, integrasi API, serta penerapan desain UI/UX yang berorientasi pada kemudahan penggunaan. Dengan penguasaan berbagai teknologi modern, saya mampu membangun solusi digital yang efisien, terstruktur, dan mudah dikembangkan.",
   skillList: [
     {
       icon: <FaHtml5 />,

@@ -8,25 +8,25 @@ const services = [
     {
         num: "01",
         title: "Web Development",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tenetur.",
+        description: "Saya menyediakan layanan pengembangan website yang responsif, cepat, dan aman. Mulai dari website company profile, dashboard admin, hingga aplikasi web kompleks yang disesuaikan dengan kebutuhan bisnis Anda.",
         href: ""
     },
     {
         num: "02",
         title: "Mobile Development",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tenetur.",
+        description: "Saya mengembangkan aplikasi mobile yang stabil, intuitif, dan memiliki performa tinggi. Fokus pada pengalaman pengguna yang nyaman serta fungsionalitas yang optimal untuk mendukung aktivitas bisnis di perangkat mobile.",
         href: ""
     },
     {
         num: "03",
         title: "UI/UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tenetur.",
+        description: "Saya merancang tampilan dan pengalaman pengguna yang menarik, konsisten, dan mudah digunakan. Setiap desain dibuat dengan pendekatan user-centered untuk memastikan produk tidak hanya terlihat bagus, tetapi juga efektif digunakan.",
         href: ""
     },
     {
         num: "04",
         title: "SEO",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tenetur.",
+        description: "Saya membantu meningkatkan visibilitas website di mesin pencari melalui optimasi teknis, struktur konten, dan performa website. Tujuannya adalah mendatangkan trafik yang relevan dan meningkatkan peluang konversi.",
         href: ""
     },
 ];

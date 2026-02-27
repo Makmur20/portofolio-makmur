@@ -54,7 +54,7 @@ const Contact = () => {
                         <from className="flex flex-col gap-6 p-10 bg-[#2727c] rounded-xl">
                             <h3 className="text-4xl text-accent">Let's work together</h3>
                             <p className="text-white/60">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita eius molestias itaque ad natus ullam fugit voluptatibus amet, consectetur et molestiae incidunt, odit soluta harum odio. Sint, illo officia!
+                                Mari bekerja sama untuk mewujudkan ide Anda menjadi solusi digital yang fungsional, menarik, dan tepat sasaran. Saya siap membantu dari tahap perencanaan hingga implementasi.
                             </p>
                         {/* input */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
